@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: darkkhaki;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+header {
+    background: url(./img/header.png) no-repeat;
+    background-size: cover;
+    background-position: 0 10%;
+    padding: 10px 0 190px 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 5px 5px 8px #252121;
+    margin-left: 10%;
+}
+
+div nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 5px #252121;
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav ul li:hover {
+    background-color: green;
+}
+
+#sobre {
+    text-shadow: 1px 1px 5px #252121;
+    text-align: justify;
+    line-height: 30px;
+    margin: 0 285px;
+}
+
+a {    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-flex;
+    align-items: center;
+}
+
+footer img {
+    height: 30px;
+}
+
+footer p {
+    font-size: xx-small;
+    color: rgb(156, 151, 83);
+}
+
+footer p a {
+    color: rgb(156, 151, 83);
+}
+
+.poema {
+    font-weight: lighter;
+    text-shadow: 1px 1px 5px #252121;
+    text-align: center;
+}
+
+div .decorativeline {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.soundcloud {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.youtube {
+    margin-right: 100px;
+}
+
+.instagram {
+    margin-left: 100px;
+}
+
+.mapa {
+    display: block;
+    margin: auto;
+}
